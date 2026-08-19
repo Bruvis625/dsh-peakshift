@@ -1,0 +1,58 @@
+{
+  "name": "dsh-peakshift",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness 错峰插件：高峰时段自动切换备用供应商，低谷切回 DeepSeek / A DeepSeek Harness plugin that shifts expensive models to a cheaper backup provider during peak pricing hours.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "author": "Flynewers8146",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "plugin",
+    "peak",
+    "off-peak",
+    "pricing",
+    "router",
+    "错峰"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flynewers8146/dsh-peakshift.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Flynewers8146/dsh-peakshift/issues"
+  },
+  "homepage": "https://github.com/Flynewers8146/dsh-peakshift#readme",
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-web-react",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-llm": "*",
+    "@deepseek-ai/dsh-settings": "*",
+    "@deepseek-ai/schemastery": "*"
+  }
+}
