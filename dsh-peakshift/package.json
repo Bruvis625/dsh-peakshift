@@ -15,7 +15,7 @@
     "LICENSE"
   ],
   "license": "MIT",
-  "author": "Flynewers8146",
+  "author": "Bruvis625",
   "keywords": [
     "deepseek",
     "harness",
@@ -29,12 +29,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Flynewers8146/dsh-peakshift.git"
+    "url": "git+https://github.com/Bruvis625/dsh-peakshift.git"
   },
   "bugs": {
-    "url": "https://github.com/Flynewers8146/dsh-peakshift/issues"
+    "url": "https://github.com/Bruvis625/dsh-peakshift/issues"
   },
-  "homepage": "https://github.com/Flynewers8146/dsh-peakshift#readme",
+  "homepage": "https://github.com/Bruvis625/dsh-peakshift#readme",
   "dsh": {
     "client": {
       "platform": "web",
